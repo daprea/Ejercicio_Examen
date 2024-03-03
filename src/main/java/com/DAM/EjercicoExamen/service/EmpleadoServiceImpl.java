@@ -1,12 +1,14 @@
-package service;
+package com.DAM.EjercicoExamen.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import Repository.EmpleadoRepository;
-import model.Empleado;
+import com.DAM.EjercicoExamen.Repository.EmpleadoRepository;
+import com.DAM.EjercicoExamen.model.Empleado;
+import org.springframework.stereotype.Service;
 
+@Service
 public class EmpleadoServiceImpl implements EmpleadoService {
 	
 	@Autowired

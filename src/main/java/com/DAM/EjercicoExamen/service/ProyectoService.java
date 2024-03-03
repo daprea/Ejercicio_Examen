@@ -1,6 +1,6 @@
-package service;
+package com.DAM.EjercicoExamen.service;
 
-import model.Proyecto;
+import com.DAM.EjercicoExamen.model.Proyecto;
 
 public interface ProyectoService {
 	

@@ -1,4 +1,4 @@
-package model;
+package com.DAM.EjercicoExamen.model;
 
 import java.sql.Date;
 

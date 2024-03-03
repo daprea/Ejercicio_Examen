@@ -1,8 +1,8 @@
-package service;
+package com.DAM.EjercicoExamen.service;
 
 import java.util.List;
 
-import model.Empleado;
+import com.DAM.EjercicoExamen.model.Empleado;
 
 public interface EmpleadoService {
 	

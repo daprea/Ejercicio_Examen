@@ -1,4 +1,4 @@
-package Controller;
+package com.DAM.EjercicoExamen.Controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import model.Empleado;
-import service.EmpleadoService;
+import com.DAM.EjercicoExamen.model.Empleado;
+import com.DAM.EjercicoExamen.service.EmpleadoService;
 
 @RestController
 @RequestMapping("/empleado")
